@@ -8,11 +8,15 @@ public class Main {
     public static void main(String[] args) {
         //奇数计数器
         //NumberGenerator generator = new OddNumberGenerator();
+
         //偶数计数器
         //NumberGenerator generator = new EvenNumberGenerator();
+
+        //随机数计数器
         NumberGenerator generator = new RandomNumberGenerator();
         //只添加图形观察者
         //generator.addObserver(new GraphObserver()).execute();
+
         //只添加数字观察者
         //generator.addObserver(new DigitalObserver()).execute();
 
