@@ -1,12 +1,14 @@
-package observer.demo;
+package observer.demo.subjects.concrete;
 
+
+import observer.demo.subjects.NumberGenerator;
 
 import java.util.Random;
 
 /**
  * @author 穆繁强
  * @date 2019/12/3
- * @description 用于生成随机数,具体的观察对象
+ * @description 用于生成随机数,具体的被观察对象
  */
 public class RandomNumberGenerator extends NumberGenerator {
     private Random random = new Random();
@@ -29,7 +31,7 @@ public class RandomNumberGenerator extends NumberGenerator {
             number = random.nextInt(50);
             notifyObservers();
             try {
-                Thread.sleep(1000);
+                Thread.sleep(200);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

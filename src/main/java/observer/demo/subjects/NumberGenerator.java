@@ -1,4 +1,6 @@
-package observer.demo;
+package observer.demo.subjects;
+
+import observer.demo.observers.Observer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +8,7 @@ import java.util.List;
 /**
  * @author 穆繁强
  * @date 2019/12/4
- * @description 用于生成数字,观察对象
+ * @description 用于生成数字,被观察对象
  */
 public abstract class NumberGenerator {
     private List<Observer> observers = new ArrayList<>();

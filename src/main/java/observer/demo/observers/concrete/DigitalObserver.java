@@ -1,4 +1,7 @@
-package observer.demo;
+package observer.demo.observers.concrete;
+
+import observer.demo.subjects.NumberGenerator;
+import observer.demo.observers.Observer;
 
 /**
  * @author 穆繁强

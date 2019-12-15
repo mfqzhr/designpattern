@@ -1,7 +1,5 @@
 package observer.book;
 
-import observer.demo.RandomNumberGenerator;
-
 /**
  * @author 穆繁强
  * @date 2019/12/3
