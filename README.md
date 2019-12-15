@@ -11,4 +11,4 @@
 
 #### 观察者模式
 
-![](https://github.com/mfqzhr/designpattern/blob/master/img/observer.png)
+![](https://github.com/mfqzhr/designpattern/blob/master/src/img/observer.png)
